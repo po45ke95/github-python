@@ -10,6 +10,7 @@ class ProjectSummary(BaseModel):
     teams: List[TeamInfo]
     sonar_project_key: str
     sonar_token: str
+    topics: List[str] = []
 
 class MultiProjectResponse(BaseModel):
     message: str
