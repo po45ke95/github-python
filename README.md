@@ -19,25 +19,6 @@ This FastAPI application automates the process of setting up new projects, inclu
 - PyYAML 6.0.2
 - PyNaCl 1.5.0
 
-## Configuration
-
-The application uses a `config.yaml` file for configuration. Ensure this file is present in the same directory as the script with the following structure:
-
-```yaml
-github:
-  token: YOUR_GITHUB_TOKEN
-  template_owner: TEMPLATE_REPO_OWNER
-  template_repo: TEMPLATE_REPO_NAME
-
-sonarqube:
-  url: YOUR_SONARQUBE_URL
-  token: YOUR_SONARQUBE_TOKEN
-
-certificates:
-  github: PATH_TO_GITHUB_CA_CERT
-  sonarqube: PATH_TO_SONARQUBE_CA_CERT
-```
-
 ## Installation
 
 1. Clone the repository
